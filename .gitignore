@@ -1,0 +1,73 @@
+# Závislosti
+/node_modules
+/.pnp
+.pnp.js
+
+# Testování
+/coverage
+
+# Next.js
+/.next/
+/out/
+
+# Produkce
+/build
+
+# Misc
+.DS_Store
+*.pem
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Lokální proměnné prostředí
+.env*.local
+.env
+.env.*
+!.env.example
+
+# Vercel
+.vercel
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# PWA
+**/public/sw.js
+**/public/workbox-*.js
+**/public/worker-*.js
+**/public/fallback-*.js
+**/public/precache.*.js
+
+# Storybook
+storybook-static
+
+# PWA
+**/public/workbox-*.js.map
+**/public/sw.js.map
+
+# Lokální dočasné soubory
+tmp/
+temp/
+
+# IDE a editory
+.idea/
+.vscode/
+*.swp
+*.swo
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+*.sublime-project
+.history
+
+# Cache
+.eslintcache
+.stylelintcache
