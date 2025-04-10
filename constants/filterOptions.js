@@ -1,0 +1,35 @@
+// constants/filterOptions.js
+export const cities = [
+  'Ostrava',
+  'Opava',
+  'Frýdek-Místek',
+  'Havířov',
+  'Karviná',
+  'Třinec',
+  'Český Těšín',
+  'Krnov',
+  'Nový Jičín',
+  'Bruntál',
+  'Bohumín',
+  'Kopřivnice',
+  'Orlová',
+  'Frenštát pod Radhoštěm',
+  'Rýmařov',
+  'Bílovec',
+  'Hlučín',
+  'Vítkov',
+  'Fulnek',
+  'Jiné',
+];
+
+export const eventTypes = [
+  { value: 'workshop', label: 'Workshop' },
+  { value: 'conference', label: 'Konference' },
+  { value: 'lecture', label: 'Přednáška' },
+  { value: 'competition', label: 'Soutěž' },
+  { value: 'internship', label: 'Stáž' },
+  { value: 'course', label: 'Kurz' },
+  { value: 'hackathon', label: 'Hackathon' },
+  { value: 'exhibition', label: 'Výstava' },
+  { value: 'other', label: 'Jiné' },
+];
